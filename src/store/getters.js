@@ -1,0 +1,28 @@
+export default {
+  // user
+
+  username: state => state.username,
+  userPhone: state => state.userPhone,
+  userAddress: state => state.userAddress,
+  showFooterBar: state => state.showFooterBar,
+  headerTitle: state => state.headerTitle,
+  recommendTableData: state => state.recommendTableData,
+  recommendPageTotal: state => state.recommendPageTotal,
+  showGoodsDetails: state => state.showGoodsDetails,
+  showPage: state => state.showPage,
+  showOverTime: state => state.showOverTime,
+  showGoodParameter: state => state.showGoodParameter,
+  goodDetails: state => state.goodDetails,
+  goodType: state => state.goodType,
+  goodModel: state => state.goodModel,
+  goodQuantity: state => state.goodQuantity,
+  shoppingCartList: state => state.shoppingCartList,
+  paiHistoryActive: state => state.paiHistoryActive,
+  searchData: state => state.searchData,
+  swiperData: state => state.swiperData,
+  commentList: state => state.commentList,
+  paiHistory: state => state.paiHistory,
+  indentList: state => state.indentList,
+  myInfo: state => state.myInfo,
+  myAuction: state => state.myAuction,
+}
